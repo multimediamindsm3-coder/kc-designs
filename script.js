@@ -7,6 +7,7 @@ var items=[
  {n:"Saree Blouse",p:"From Rs 900",img:"images/blouse.jpg"},
  {n:"Kurti & Palazzo",p:"From Rs 1,200",img:"images/kurti.jpg"},
  {n:"Kids Ethnic Wear",p:"From Rs 800",img:"images/kids.jpg"}
+ {n:"fancy saree",p:"From Rs 650", img:"images/fancy saree.jpg"}
 ];
 var box=document.getElementById("products");
 if(box){items.forEach(function(i){

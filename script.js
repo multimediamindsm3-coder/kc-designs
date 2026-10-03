@@ -1,4 +1,4 @@
-var WA_NUMBER = "91XXXXXXXXXX";          // WhatsApp number: country code, no +
+var WA_NUMBER = "9110321582";          // WhatsApp number: country code, no +
 var RZP_KEY   = "rzp_test_XXXXXXXXXXXX"; // Razorpay KEY ID only. NEVER put the secret key here.
 function v(id){return document.getElementById(id).value;}
 function sendWA(text){window.open("https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(text),"_blank");}

@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Kathyayini & Chaarvi Designs</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="logo">Kathyayini &amp; Chaarvi</div><nav><a  href="index.html">Home</a><a  href="collection.html">Collection</a><a class=on href="design.html">Design</a><a  href="measurements.html">Measurements</a><a  href="contact.html">Contact</a></nav></header>
+<section><h2>Design Your Own Outfit</h2>
+<label>Your name</label><input id="name"><label>Phone</label><input id="phone">
+<div class="row"><div><label>Outfit</label><select id="type" onchange="updatePreview()"><option>Lehenga</option><option>Saree Blouse</option><option>Kurti</option><option>Anarkali</option><option>Kids Wear</option></select></div>
+<div><label>Fabric</label><select id="fabric" onchange="updatePreview()"><option>Silk</option><option>Cotton</option><option>Georgette</option><option>Velvet</option></select></div></div>
+<label>Colour</label><select id="colour" onchange="updatePreview()"><option value="#b5334a">Maroon</option><option value="#2e7d5b">Green</option><option value="#2c4a9a">Royal Blue</option><option value="#e0a526">Mustard</option><option value="#d96a9a">Pink</option></select>
+<div class="preview" id="preview">Lehenga - Silk</div>
+<label>Neckline / sleeves</label><input id="style" placeholder="e.g. boat neck, elbow sleeves">
+<label>Notes</label><textarea id="notes" rows="3" placeholder="Embroidery, border, special request"></textarea><br>
+<button class="btn" onclick="sendDesign()">Send Design on WhatsApp</button></section>
+<script>window.onload=function(){updatePreview();}</script>
+<footer>&copy; 2026 Kathyayini &amp; Chaarvi Designs</footer><script src="script.js"></script></body></html>

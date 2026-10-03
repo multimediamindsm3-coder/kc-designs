@@ -5,10 +5,10 @@ function sendWA(text){window.open("https://wa.me/"+WA_NUMBER+"?text="+encodeURIC
 
 /* ---- PRODUCTS: edit names, prices (numbers) and image file names ---- */
 var items=[
- {id:1,n:"Fancy Saree",p:2500,img:"images/fancy-saree.jpg"},
- {id:2,n:"Pattu Saree",p:6500,img:"images/pattu-saree.jpg"},
- {id:3,n:"Lehenga Set",p:4500,img:"images/lehenga.jpg"},
- {id:4,n:"Saree Blouse",p:900,img:"images/blouse.jpg"}
+ {id:1,n:"Fancy Saree",p:2500,img:"fancy-saree.jpg"},
+ {id:2,n:"Pattu Saree",p:6500,img:"pattu-saree.jpg"},
+ {id:3,n:"Lehenga Set",p:4500,img:"lehenga.jpg"},
+ {id:4,n:"Saree Blouse",p:900,img:"blouse.jpg"}
 ];
 function find(id){return items.filter(function(i){return i.id==id;})[0];}
 

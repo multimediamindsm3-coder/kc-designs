@@ -22,3 +22,11 @@ input,textarea,select{width:100%;padding:11px;border:1px solid var(--muted);bord
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .preview{height:90px;border-radius:12px;margin:14px 0;display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:#fff;text-shadow:0 1px 3px #0008}
 footer{text-align:center;padding:24px;color:var(--muted);font-size:.85rem}
+.price{color:var(--accent);font-weight:bold}
+.card .btn{width:100%;margin-top:8px;padding:9px;font-size:.9rem}
+.cartrow{display:flex;gap:12px;align-items:center;background:var(--card);padding:10px;border-radius:12px;margin-bottom:10px}
+.cartrow img{width:70px;height:70px;object-fit:cover;border-radius:8px;background:#eadbd3}
+.cartrow .grow{flex:1}
+.qty button{width:30px;height:30px;border-radius:50%;border:1px solid var(--accent);background:none;color:var(--accent);font-size:1rem;cursor:pointer}
+.total{font-size:1.2rem;font-weight:bold;margin:14px 0}
+.btn2{background:#25a244}
